@@ -1,6 +1,6 @@
 {
   "name": "eventtcp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Event emitter that works over the tcp socket",
   "main": "index.js",
   "scripts": {
