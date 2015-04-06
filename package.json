@@ -1,0 +1,17 @@
+{
+  "name": "eventtcp",
+  "version": "0.0.1",
+  "description": "Event emitter that works over the tcp socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=jsontcp:* mocha --recursive --ui tdd --reporter spec --slow 5 --bail test"
+  },
+  "dependencies": {
+    "debug": "^2.1.3",
+    "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  }
+}
